@@ -1,0 +1,150 @@
+# Based on nord-dircolors
+# https://github.com/arcticicestudio/nord-dircolors/
+
+colors:
+# Polar Night, or "four darker colors"
+  nord0  : '2e3440' # ANSI black
+  nord1  : '3b4252'
+  nord2  : '434c5e'
+  nord3  : '4c566a'
+
+# Snow Storm, or "three bright colors"
+  nord4  : 'd8dee9' # ANSI white
+  nord5  : 'e5e9f0'
+  nord6  : 'eceff4'
+
+# Frost, or "the heart palette of Nord, a group of four bluish colors"
+  nord7  : '8fbcbb' # ANSI cyan
+  nord8  : '88c0d0'
+  nord9  : '81a1c1'
+  nord10 : '5e81ac' # ANSI blue
+
+# Aurora, or "five colorful components"
+  nord11 : 'bf616a' # ANSI red
+  nord12 : 'd08770' # orange
+  nord13 : 'ebcb8b' # ANSI yellow
+  nord14 : 'a3be8c' # ANSI green
+  nord15 : 'b48ead' # ANSI magenta
+
+core:
+  regular_file:
+    foreground: nord4
+
+  directory:
+    foreground: nord10
+    font-style: bold
+
+  executable_file:
+    foreground: nord12
+
+  symlink:
+    foreground: nord4
+    font-style: underline
+
+  broken_symlink:
+    foreground: nord11
+
+  missing_symlink_target:
+    foreground: nord4
+    background: nord11
+    font-style: bold
+
+  fifo:
+    foreground: nord7
+    font-style: bold
+    font-style: underline
+
+  socket:
+    foreground: nord13
+    font-style: underline
+
+  character_device:
+    foreground: nord13
+
+  block_device:
+    foreground: nord13
+    font-style: bold
+
+  normal_text:
+    foreground: nord4
+
+  other_writable:
+    foreground: nord10
+    font-style: bold
+    font-style: underline
+
+  sticky:
+    foreground: nord4
+    font-style: underline
+
+  sticky_other_writable:
+    foreground: nord4
+    background: nord10
+    font-style: bold
+
+text:
+  special:
+    foreground: nord14
+
+  todo:
+    foreground: nord4
+
+  licenses:
+    foreground: nord4
+
+  configuration:
+    foreground: nord15
+
+  other:
+    foreground: nord4
+
+markup:
+  foreground: nord4
+
+  other:
+    foreground: nord14
+
+
+programming:
+  foreground: nord4
+
+  source:
+    foreground: nord8
+
+  tooling:
+    foreground: nord4
+
+    build:
+      foreground: nord15
+
+media:
+  foreground: nord14
+  font-style: italic
+
+  audio:
+    foreground: nord7
+    font-style: italic
+
+  fonts:
+    foreground: nord4
+
+  image:
+    foreground: nord14
+    font-style: italic
+
+  video:
+    foreground: nord14
+    font-style: italic
+
+office:
+  foreground: nord13
+
+archives:
+  foreground: nord4
+  font-style: bold
+
+executable:
+  foreground: nord12
+
+unimportant:
+  foreground: nord3
